@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-company">Welcome, [COMPANY]</div>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>SHIPS</li>
+            <li>RAILWAY</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="path">[path details placeholder]</div>
+      <div class="map">
+        <div class="covering"></div>
+        <div class="api-render">
+          <script type="text/javascript">
+            var width = "100%";
+            var height = "540";
+            var latitude = "10.00";
+            var longitude = "78.40";
+            var zoom = "8";
+            var imo = "9246396";
+            var show_track = "true";
+          </script>
+          <script
+            type="text/javascript"
+            src="https://www.vesselfinder.com/aismap.js"
+          ></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
