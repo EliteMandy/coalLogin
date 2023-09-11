@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0px;
+    text-align: center;
+}
+body{
+    background:#4377cb;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    display:grid;
+    margin-top: 50%;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    background-color: rgb(115, 108, 119);
+    
+}
+.container h1{
+    font-size: 3rem;
+    align-items: center;
+    place-items: center;
+    padding-bottom: 10px;
+}
+.content{
+    padding:5px;
+    background-color: azure;
+    border-radius:20px;
+}
