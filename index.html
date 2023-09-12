@@ -12,32 +12,44 @@
     <title>LOGIN | Page</title>
   </head>
   <body>
-    <span><button id="button-change" onclick="myFunction()">change</button></span>
+    <span><button id="button-change" onclick="myFunction">change</button></span>
     <div class="box">
       <div class="container">
         <div class="top">
           <span id="span12">Have an account?</span>
           <header>Login</header>
         </div>
-        <form actrion="connect.php" method="post">
-        <div class="input-field">
-          <input type="text" class="input" placeholder="Username" id="" name="Username"/>
-          <i class="bx bx-user"></i>
-        </div>
+        <form action="connect.php" method="post">
+          <div class="input-field">
+            <input
+              type="text"
+              class="input"
+              placeholder="Username"
+              id=""
+              name="Username"
+            />
+            <i class="bx bx-user"></i>
+          </div>
 
-        <div class="input-field">
-          <input type="Password" class="input" placeholder="Password" id="" name="Password" />
-          <i class="bx bx-lock-alt"></i>
-        </div>
+          <div class="input-field">
+            <input
+              type="Password"
+              class="input"
+              placeholder="Password"
+              id=""
+              name="Password"
+            />
+            <i class="bx bx-lock-alt"></i>
+          </div>
 
-        <div class="input-field">
-          <input type="submit" class="submit" value="Login" id="" />
-        </div>
+          <div class="input-field">
+            <input type="submit" class="submit" value="Login" id="" />
+          </div>
         </form>
         <div class="two-col">
           <div class="one">
             <input type="checkbox" name="" id="check" style="" />
-            <label for="check" > Remember Me</label>
+            <label for="check"> Remember Me</label>
           </div>
           <div class="two">
             <label><a href="#">Forgot password?</a></label>

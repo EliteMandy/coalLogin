@@ -12,33 +12,33 @@ body {
   padding-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
 }
 
-.login-company {
-  grid-area: 1 / 1 / 2 / 4;
-  font-size: 40px;
-  color: antiquewhite;
-  padding: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #112d5a;
-  z-index: 1;
+.coal-image {
+  grid-area: 1 / 1 / 2 / 7;
 }
+
+.coal-image > img {
+  width: 100%;
+  height: 100%;
+}
+
 .navbar {
-  grid-area: 1 / 4 / 2 / 7;
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #112d5a;
   color: white;
   z-index: 1;
+  position: relative;
+  top: -200px;
+  margin-bottom: -200px;
 }
 
 .navbar > nav > ul {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
   padding-left: 20px;
@@ -62,10 +62,32 @@ body {
 }
 
 .path {
-  margin: 40px 20px 20px 40px;
-  background-color: white;
+  margin: 10px 20px 20px 40px;
   grid-area: 2 / 1 / 6 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-company {
+  font-size: 40px;
+  color: black;
   padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 1;
+}
+
+.path-text {
+  background-color: antiquewhite;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 350px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#track-id {
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .map {
@@ -78,7 +100,7 @@ body {
 
 .covering {
   z-index: 1;
-  background-color: #faebd7;
+  background-color: white;
   width: 100%;
   height: 30px;
 }

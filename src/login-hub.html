@@ -8,16 +8,65 @@
   </head>
   <body>
     <div class="container">
-      <div class="login-company">Welcome, [COMPANY]</div>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li>SHIPS</li>
-            <li>RAILWAY</li>
-          </ul>
-        </nav>
+      <div class="coal-image">
+        <img src="/images/coal-header.png" />
       </div>
-      <div class="path">[path details placeholder]</div>
+      <div class="path">
+        <div class="login-company">Welcome, [COMPANY]</div>
+
+        <div class="path-text">
+          <span id="track-id">Tracking ID: 1276789012<br /><br /></span>
+
+          Monday, 25 August<br />
+          6:30 AM<br />
+          Cargo loaded onto train<br />
+          Mundra Coal Terminal, Mundra, India<br />
+          Departed from Mundra Coal Terminal<br />
+          Mundra, India<br />
+          <br />
+          Tuesday, 26 August<br />
+          12:15 PM<br />
+          Arrived at Coal Sorting Facility<br />
+          Mundra, India<br />
+          3:45 PM<br />
+          Cargo inspected and graded<br />
+          Mundra, India<br />
+          Wednesday, 27 August<br />
+          7:20 AM<br />
+          Departed from Coal Sorting Facility<br />
+          Mundra, India<br />
+          9:35 AM<br />
+          Cargo transferred to coal freighter<br />
+          Mundra Port, India<br />
+          <br />
+          Thursday, 28 August<br />
+          2:10 PM<br />
+          Coal freighter departs Mundra Port<br />
+          Mundra Port, India<br />
+          <br />
+          Sunday, 31 August<br />
+          8:40 AM<br />
+          Arrived at Colombo Port, Sri Lanka<br />
+          Coal transshipment and quality check<br />
+          Colombo Port, Sri Lanka<br />
+          <br />
+          Monday, 1 September<br />
+          3:15 PM<br />
+          Departed from Colombo Port<br />
+          Coal freighter en route to Port Klang<br />
+          <br />
+          Wednesday, 3 September<br />
+          10:25 AM<br />
+          Coal freighter arrived at Port Klang, Malaysia<br />
+          Unloading and distribution process begins<br />
+          Port Klang, Malaysia<br />
+          <br />
+          Thursday, 4 September<br />
+          11:55 AM<br />
+          Coal cargo successfully delivered<br />
+          Final destination: Port Klang, Malaysia<br />
+        </div>
+      </div>
       <div class="map">
         <div class="covering"></div>
         <div class="api-render">
@@ -35,7 +84,16 @@
             src="https://www.vesselfinder.com/aismap.js"
           ></script>
         </div>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li>SHIPS</li>
+              <li>RAILWAY</li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
+    <footer class="footer">Created by</footer>
   </body>
 </html>
